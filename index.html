@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>天气预报</title>
+		<link href="css/project.css"rel="stylesheet"type="text/css"/>
+	</head>
+
+	<body>
+		<div class="top">
+			<div class="nav_box">
+				<div class="nav_left">
+		        	<a target="_blank" href="http://www.weather.com.cn/">首页</a>
+		            <a target="_blank" href="http://www.weather.com.cn/forecast/">预报</a>
+		            <a target="_blank" href="http://www.weather.com.cn/satellite/">云图</a>
+		            <a target="_blank" href="http://www.weather.com.cn/radar/">雷达</a>
+		            <a target="_blank" href="http://www.weather.com.cn/live/">临近预报</a>
+		            <a target="_blank" href="http://products.weather.com.cn/">专业产品</a>
+		            <a target="_blank" href="http://news.weather.com.cn/">资讯</a>
+		            <a target="_blank" href="http://www.weather.com.cn/life/">生活</a>
+		            <a target="_blank" href="http://www.weather.com.cn/forecast/skiweather.shtml">滑雪</a>
+		            <a target="_blank" href="http://www.weatherdt.com/">产创平台</a>
+		            <a target="_blank" href="http://fj.weather.com.cn/">福建站</a>
+		            <a target="_blank" href="http://fj.weather.com.cn/">更多</a>
+				</div>
+				
+				<div class="nav_right">
+    	  			<a href="http://www.weather.com.cn/weather1d/101230201.shtml#dingzhi_first" target="_self" title="阵雨">
+    	  				<span class="city_name"><em>厦门</em></span> 
+    	  				<span class="icon d3"></span> 
+    	  				<span class="icon n3"></span> 
+    	  				<em class="fl">18℃/14℃</em> 
+    	  			</a>
+    	  			<a class="add" href="http://www.weather.com.cn/profile/city.shtml" target="_self">+</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="head">
+			<div class="head_box">
+				<div class="head_left">
+					<a href="http://www.weather.com.cn/"></a>
+					<span>预报</span>
+				</div>
+				<div class="head_right">
+					<input type="text" placeholder="输入城市名、景点名 查天气" class="textinput">
+					<span class="input-btn">
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="main_box">
+				<div class="main_box_head">
+					<div class="main_box_nav">
+						<a href="http://www.weather.com.cn/weather/101230201.shtml" target="_blank">厦门</a>
+						<span>></span>  
+						<a href="http://www.weather.com.cn/weather/101230201.shtml" target="_blank">城区</a>
+					</div>
+					<div class="main_box_time">18:00更新</div>
+				</div>
+				
+				<div class="main_box_tab">
+					<ul>
+						<li id="today_content_btn">
+							<a href="javascript:void(0)">今天</a>
+						</li>
+						<li class="on" id="fiveday_content_btn">
+							<a href="javascript:void(0)">5天</a>
+						</li>
+						<li id="moretime_content_btn">
+							<a href="javascript:void(0)">更长时间</a>
+						</li>
+						<li id="weather_content_btn">
+							<a href="javascript:void(0)">天气日历</a>
+						</li>
+						<li id="radar_content_btn">
+							<a href="javascript:void(0)">雷达图</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="main_box_content" id="today_content">
+					<img src="img/3C4A.tmp.jpg">
+				</div>
+				
+				<div class="main_box_content content-on" id="fiveday_content">
+					<div class="main_box_content_box">
+						<div class="fiveday_content_top">
+							<div id="qing">
+								<div>12日 星期四</div>
+								<div>
+									<img src="img/day_qing.png">
+								</div>
+								<div>晴天</div>
+								<div>25/16℃</div>
+								<div>微风</div>
+							</div>
+							<div id="xiaoyu">
+								<div>13日 星期五</div>
+								<div>
+									<img src="img/day_xiaoyu.png">
+								</div>
+								<div>小雨</div>
+								<div>18/12℃</div>
+								<div>南风</div>
+							</div>
+							<div id="dayu">
+								<div>14日 星期六</div>
+								<div>
+									<img src="img/day_dayu.png">
+								</div>
+								<div>大雨</div>
+								<div>12/7℃</div>
+								<div>北风</div>
+							</div>
+							<div id="yin">
+								<div>15日 星期天</div>
+								<div>
+									<img src="img/day_yin.png">
+								</div>
+								<div>阴天</div>
+								<div>8/2℃</div>
+								<div>无持续风向</div>
+							</div>
+							<div id="daxue">
+								<div>16日 星期一</div>
+								<div>
+									<img src="img/day_daxue.png">
+								</div>
+								<div>大雪</div>
+								<div>-1/-10℃</div>
+								<div>东南风</div>
+							</div>
+						</div>
+						
+						<div class="fiveday_content_bottom">
+							<div>星期四</div>
+							<div>
+								<img src="img/days/qing.png">
+							</div>
+							<div>晴天</div>
+							<div>25/16℃</div>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="main_box_content" id="moretime_content">
+					<img src="img/36C5.tmp.jpg">
+				</div>
+				
+				<div class="main_box_content" id="weather_content"">
+					<img src="img/57AB.tmp.jpg">
+				</div>
+				
+				<div class="main_box_content" id="radar_content">
+					<img src="img/85CA.tmp.jpg">
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/project.js"></script>
+	</body>
+
+</html>
