@@ -50,9 +50,9 @@ nav, nav ul {
 }
 
 .menu nav ul li {
-	-webkit-flex-basis: 20%;
-	-ms-flex-preferred-size: 20%;
-	flex-basis: 20%;
+	-webkit-flex-basis: 25%;
+	-ms-flex-preferred-size: 25%;
+	flex-basis: 25%;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
@@ -68,7 +68,7 @@ nav, nav ul {
 	-o-transform: translateY(-100%);
 	-ms-transform: translateY(-100%);
 	transform: translateY(-100%);
-	  width: 20% !important;
+	  width: 25% !important;
 }
 
 .menu nav li a {
